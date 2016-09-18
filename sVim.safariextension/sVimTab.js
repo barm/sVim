@@ -276,14 +276,14 @@ sVimTab.commands = {
       element.blur();
     }
     sVimTab.mode = "normal";
-    sVimTab.commandDiv.innerHTML = "NORMAL";
+    sVimTab.commandDiv.innerText = "NORMAL";
     sVimTab.commandDiv.style.display = "none";
   },
 
   // Enter insert mode
   insertMode: function() {
     sVimTab.mode = "insert";
-    sVimTab.commandDiv.innerHTML = "INSERT";
+    sVimTab.commandDiv.innerText = "INSERT";
     sVimTab.commandDiv.style.display = "block";
   },
 
